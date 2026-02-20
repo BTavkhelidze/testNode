@@ -1,8 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const User = require('./model/User.js');
-const generateToken = require('./utils/genToken.js');
+
 const userRutes = require('./routes/user.routes.js');
 const app = express();
 
